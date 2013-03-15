@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataTypeDescriptor dataTypeId="bb913e4d-c4d4-475b-9385-6d706cbad697" name="News" namespace="Omnicorp.Content" title="News" hasCustomPhysicalSortOrder="false" isCodeGenerated="true" cachable="false" labelFieldName="Title" typeManagerTypeName="Omnicorp.Content.News">
+  <DataAssociations />
+  <DataScopes>
+    <DataScopeIdentifier name="public" />
+  </DataScopes>
+  <KeyPropertyNames>
+    <KeyPropertyName name="Id" />
+  </KeyPropertyNames>
+  <SuperInterfaces>
+    <SuperInterface type="Composite.Data.ProcessControlled.ILocalizedControlled,Composite" />
+    <SuperInterface type="Composite.Data.ProcessControlled.IProcessControlled,Composite" />
+  </SuperInterfaces>
+  <Fields>
+    <DataFieldDescriptor id="184f7a06-464e-4a35-9fd8-8a9dc438aba9" name="Id" isNullable="false" position="-1" groupByPriority="0" inherited="false" instanceType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='Guid'" isReadOnly="false">
+      <FormRenderingProfile />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="1b86897c-8cfe-4ac7-bc72-850c2ee00038" name="Date" isNullable="false" position="0" groupByPriority="1" inherited="false" instanceType="System.DateTime, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='DateTime'" isReadOnly="false" newInstanceDefaultFieldValue="&lt;f:function xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Utils.Date.Now&quot; /&gt;" defaultValue="ValueType='DateTimeNow'Value=''">
+      <FormRenderingProfile label="Date" helpText="The news publishing date. This can be set to a date in the future for automatic publishing." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.Date.DateSelector&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="fd89fd87-3867-4d65-ad6e-fac1f9c91eaa" name="Title" isNullable="false" position="1" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='String'Length='256'" isReadOnly="false" defaultValue="ValueType='String'Value=''">
+      <FormRenderingProfile label="Title" helpText="The news title. Consider a short title for easy reading in news lists and feeds." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.String.TextBox&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="85f015e5-530d-45dc-bf40-65d7c301e6e7" name="Summary" isNullable="false" position="2" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='String'Length='1024'" isReadOnly="false" defaultValue="ValueType='String'Value=''">
+      <FormRenderingProfile label="Summary" helpText="The news summary. One or two lines should do it." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.String.TextBox&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="a2a6569a-0aa6-41a6-9b63-e99541a6b085" name="Content" isNullable="false" position="3" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='LargeString'" isReadOnly="false" defaultValue="ValueType='String'Value=''">
+      <FormRenderingProfile label="Content" helpText="The news article." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.String.VisualXhtmlEditor&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+  </Fields>
+</DataTypeDescriptor>

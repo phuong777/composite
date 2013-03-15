@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GeneratedTypeWhiteListElementss>
+  <GeneratedTypeWhiteListElements TypeManagerTypeName="mynamespace.khongbiet" />
+  <GeneratedTypeWhiteListElements TypeManagerTypeName="Omnicorp.Content.AllSpots" />
+  <GeneratedTypeWhiteListElements TypeManagerTypeName="DynamicType:Omnicorp.Content.AllSpots" />
+</GeneratedTypeWhiteListElementss>

@@ -1,0 +1,98 @@
+﻿.Blog .line-separator {
+	height: 1px;
+	background: #8C8B8B;
+	border-bottom: 1px solid silver;
+	margin-bottom: 10px;
+}
+
+.BlogImage {
+	display: block;
+}
+
+.BlogTitle span.t-count, span.t-count a {
+	font-size: 12px;
+	background: url(comment_bulb.png) no-repeat;
+	height: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+}
+
+.BlogTitle a {
+	text-decoration: none;
+}
+
+.BlogTitle span.t-count {
+	background-position: 0px 0px;
+	display: inline-block;
+	margin-left: 4px;
+	padding-left: 8px;
+	text-decoration: none;
+}
+
+.BlogTitle span.t-count a {
+	background-position: right 0px;
+	float: left;
+	padding: 0px 8px 0px 4px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.BlogTitle span.t-count:hover {
+	background-position: 0px -21px;
+}
+
+.BlogTitle span.t-count a:hover {
+	background-position: right -21px;
+}
+
+.BlogAuthorPicture {
+	float: left;
+	width: 52px;
+	padding-right: 10px;
+}
+
+.BlogAuthor span, .BlogDate span, .BlogTags span {
+	font-weight: bold;
+}
+
+.BlogTeaser, .BlogContent {
+	display: block;
+	clear: both;
+	border-top: silver 1px solid;
+	padding: 15px 0px;
+}
+
+.BlogTeaser {
+	font-style: italic;
+	margin-top: 5px;
+}
+
+.BlogContent {
+	padding-bottom: 0px;
+}
+
+.BlogTags a {
+	padding-left: 8px;
+}
+
+.AddThis {
+	margin: 0px 0px 20px 0px;
+	min-height: 25px;
+}
+
+.BlogPaging a, .BlogPaging span {
+	padding: 2px 5px;
+}
+
+#BlogArchive, #TagCloud {
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+#TagCloud a {
+	margin: 2px;
+}
+
+#BlogArchive li {
+	list-style: none;
+}

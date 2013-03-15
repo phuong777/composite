@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataTypeDescriptor dataTypeId="2472d314-1084-4a17-99e6-535212f6f773" name="khongbiet" namespace="mynamespace" title="hahaha" hasCustomPhysicalSortOrder="false" isCodeGenerated="true" cachable="false" labelFieldName="field" typeManagerTypeName="mynamespace.khongbiet">
+  <DataAssociations />
+  <DataScopes>
+    <DataScopeIdentifier name="public" />
+    <DataScopeIdentifier name="administrated" />
+  </DataScopes>
+  <KeyPropertyNames>
+    <KeyPropertyName name="Id" />
+  </KeyPropertyNames>
+  <SuperInterfaces>
+    <SuperInterface type="Composite.Data.ProcessControlled.IPublishControlled,Composite" />
+    <SuperInterface type="Composite.Data.ProcessControlled.IProcessControlled,Composite" />
+  </SuperInterfaces>
+  <Fields>
+    <DataFieldDescriptor id="9ce12950-37fb-4ce5-8722-0f5d8bfb1d9b" name="Id" isNullable="false" position="-1" groupByPriority="0" inherited="false" instanceType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='Guid'" isReadOnly="false">
+      <FormRenderingProfile />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="0b397ab1-b565-4269-98fa-6bc15bb56c9c" name="field" isNullable="false" position="0" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='String'Length='64'" isReadOnly="false" defaultValue="ValueType='String'Value=''">
+      <FormRenderingProfile label="field1" helpText="" widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.String.TextBox&quot; /&gt;" />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="ebc17a0c-07cd-40ce-85fb-e08b8b63a34d" name="abc" isNullable="false" position="1" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='String'Length='64'" isReadOnly="false" defaultValue="ValueType='String'Value=''">
+      <FormRenderingProfile label="abc" helpText="" widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.String.TextBox&quot; /&gt;" />
+    </DataFieldDescriptor>
+  </Fields>
+</DataTypeDescriptor>

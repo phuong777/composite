@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\Xslt\Composite\Search\SimplePageSearch\SearchForm.xsl" />
+        <File filename="~\App_Data\Xslt\Composite\Search\SimplePageSearch\SearchResults.xsl" />
+        <File filename="~\App_Code\Composite\Search\SimplePageSearch\SimplePageSearch.cs" />
+        <File filename="~\Frontend\Composite\Search\SimplePageSearch\Styles.css" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.IMethodBasedFunctionInfo,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="f345fa9e-a256-4ca2-afda-477074abf13c" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.INamedFunctionCall,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="XsltFunctionId" value="116b1c36-4cf4-46cc-8c9e-62f2bf79cc25" />
+              <Key name="Name" value="SearchQuery" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="de33ce12-cd19-4e08-b39c-6fa7f28d5e83" />
+              <Key name="Name" value="GetPageId" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="de33ce12-cd19-4e08-b39c-6fa7f28d5e83" />
+              <Key name="Name" value="GetSearchResult" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IParameter,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="OwnerId" value="116b1c36-4cf4-46cc-8c9e-62f2bf79cc25" />
+              <Key name="ParameterId" value="981230b2-0246-4214-ad55-40e22cbc2992" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="116b1c36-4cf4-46cc-8c9e-62f2bf79cc25" />
+              <Key name="ParameterId" value="ccf1db14-ac11-4e51-bd82-c239d12a1a04" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="de33ce12-cd19-4e08-b39c-6fa7f28d5e83" />
+              <Key name="ParameterId" value="08602df6-4c8f-4145-9e40-e95463d42379" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="de33ce12-cd19-4e08-b39c-6fa7f28d5e83" />
+              <Key name="ParameterId" value="8ab4d286-01d7-4236-9edf-72aa9290c656" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="de33ce12-cd19-4e08-b39c-6fa7f28d5e83" />
+              <Key name="ParameterId" value="8aad848d-491a-411d-a83e-ecb2c2af5231" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="de33ce12-cd19-4e08-b39c-6fa7f28d5e83" />
+              <Key name="ParameterId" value="b4122f47-c17e-4a5c-856b-25234134c8a0" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IXsltFunction,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="116b1c36-4cf4-46cc-8c9e-62f2bf79cc25" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="de33ce12-cd19-4e08-b39c-6fa7f28d5e83" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>

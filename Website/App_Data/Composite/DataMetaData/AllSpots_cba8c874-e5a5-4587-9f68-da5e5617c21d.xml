@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataTypeDescriptor dataTypeId="cba8c874-e5a5-4587-9f68-da5e5617c21d" name="AllSpots" namespace="Omnicorp.Content" title="Spots" hasCustomPhysicalSortOrder="false" isCodeGenerated="true" cachable="false" labelFieldName="Title" typeManagerTypeName="Omnicorp.Content.AllSpots">
+  <DataAssociations />
+  <DataScopes>
+    <DataScopeIdentifier name="public" />
+  </DataScopes>
+  <KeyPropertyNames>
+    <KeyPropertyName name="Id" />
+  </KeyPropertyNames>
+  <SuperInterfaces>
+    <SuperInterface type="Composite.Data.ProcessControlled.ILocalizedControlled,Composite" />
+    <SuperInterface type="Composite.Data.ProcessControlled.IProcessControlled,Composite" />
+  </SuperInterfaces>
+  <Fields>
+    <DataFieldDescriptor id="c5e1dca3-f900-4ce5-b733-2577ed8bf7c6" name="Id" isNullable="false" position="-1" groupByPriority="0" inherited="false" instanceType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='Guid'" isReadOnly="false">
+      <FormRenderingProfile />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="b9978dc0-d880-4bd1-9f0f-7baba9e41305" name="Title" isNullable="false" position="0" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='String'Length='128'" isReadOnly="false" defaultValue="ValueType='String'Value=''">
+      <FormRenderingProfile label="Title" helpText="The spot title is for internal use only. It is not shown on the website." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.String.TextBox&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="561325b0-96ab-40ef-a36e-ab4e5cb3e74c" name="Content" isNullable="false" position="1" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='LargeString'" isReadOnly="false" defaultValue="ValueType='String'Value=''">
+      <FormRenderingProfile label="Content" helpText="The spot content. All HTML may be used with caution." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.String.VisualXhtmlEditor&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="7a632535-c0d3-4bb6-87b4-ced45fc43cf0" name="UseRandom" isNullable="false" position="2" groupByPriority="0" inherited="false" instanceType="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='Boolean'" isReadOnly="false" defaultValue="ValueType='Boolean'Value='False'">
+      <FormRenderingProfile label="Use random" helpText="When checked, this spot will be available for random rendering. To show a random spot on a page, simply include the spot titled &quot;Random spot&quot;." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.Bool.CheckBox&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+  </Fields>
+</DataTypeDescriptor>

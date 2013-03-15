@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<SubscribedTypesCache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Assemblies>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Common</AssemblyName>
+      <LastModified>2012-04-24T20:17:48+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Logging</AssemblyName>
+      <LastModified>2012-04-24T20:17:50+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.EnterpriseLibrary.Validation</AssemblyName>
+      <LastModified>2012-04-24T20:17:48+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Microsoft.Practices.ObjectBuilder</AssemblyName>
+      <LastModified>2012-04-24T20:17:50+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes>
+        <string>Composite.Community.Blog.BlogStartupHandler</string>
+      </SubscribedTypes>
+      <AssemblyName>Composite.Community.Blog</AssemblyName>
+      <LastModified>2013-03-12T15:07:59.12548+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite</AssemblyName>
+      <LastModified>2013-03-12T15:08:53.4305861+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite.Media.ImageCrop</AssemblyName>
+      <LastModified>2013-03-12T15:08:36.4756163+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>Composite.Workflows</AssemblyName>
+      <LastModified>2013-03-12T15:08:53.4965899+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>CookComputing.XmlRpcV2</AssemblyName>
+      <LastModified>2013-03-12T15:07:59.0964784+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>ICSharpCode.SharpZipLib</AssemblyName>
+      <LastModified>2013-03-12T15:08:53.5525931+07:00</LastModified>
+    </AssemblyInfo>
+    <AssemblyInfo>
+      <SubscribedTypes />
+      <AssemblyName>TidyNet</AssemblyName>
+      <LastModified>2013-03-12T15:08:53.5675939+07:00</LastModified>
+    </AssemblyInfo>
+  </Assemblies>
+</SubscribedTypesCache>

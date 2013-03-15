@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\Xslt\Composite\Media\NivoSlider.xsl" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\demo/demo.html" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\demo/images/dev7logo.png" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\demo/images/nemo.jpg" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\demo/images/toystory.jpg" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\demo/images/up.jpg" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\demo/images/walle.jpg" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\demo/scripts/jquery-1.9.0.min.js" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\demo/style.css" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\jquery.nivo.slider.js" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\jquery.nivo.slider.pack.js" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\license.txt" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\nivo-slider.css" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\README" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/bar/arrows.png" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/bar/bar.css" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/bar/bullets.png" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/bar/loading.gif" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/dark/arrows.png" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/dark/bullets.png" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/dark/dark.css" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/dark/loading.gif" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/default/arrows.png" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/default/bullets.png" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/default/default.css" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/default/loading.gif" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/light/arrows.png" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/light/bullets.png" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/light/light.css" />
+        <File filename="~\Frontend\Composite\Media\NivoSlider\themes/light/loading.gif" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.INamedFunctionCall,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="XsltFunctionId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="Name" value="GetIImageFileXml" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IParameter,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="41d210f3-210a-47e9-8f39-e2092337359a" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="b4ba5e8f-5393-40f6-a633-ef63f1deeffa" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="a5706ae6-5632-46f7-8851-8581cb0239b9" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="65825420-d8fb-424f-8715-55cab963a5d9" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="83e33091-76f8-4c5a-bdde-421d5af48e8a" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="9145c36d-59ac-4808-94d1-de67fde4309e" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="899b2084-80c3-4f81-b07d-7c5b45f48111" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="9c6e497e-c1da-4f7d-8cf8-81ca45f5f6c8" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="73dc1135-ab72-4a2c-ade8-5dab8f840ed5" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="951bd5cc-8ed1-4c51-9cda-91b36650e5b8" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="e991634b-f0b9-4d16-b682-a431371084f9" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+              <Key name="ParameterId" value="920b8334-8185-4443-a997-0b807c48896b" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IXsltFunction,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="9f594aa3-9243-44df-aece-33a611c46b1f" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>

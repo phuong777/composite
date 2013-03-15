@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataTypeDescriptor dataTypeId="aa6cb396-57c9-4f39-9a42-bfbf7a4bd133" name="Tags" namespace="Composite.Community.Blog" title="BlogTags" hasCustomPhysicalSortOrder="false" isCodeGenerated="true" cachable="false" labelFieldName="Tag" typeManagerTypeName="Composite.Community.Blog.Tags">
+  <DataAssociations />
+  <DataScopes>
+    <DataScopeIdentifier name="public" />
+  </DataScopes>
+  <KeyPropertyNames>
+    <KeyPropertyName name="Id" />
+  </KeyPropertyNames>
+  <SuperInterfaces />
+  <Fields>
+    <DataFieldDescriptor id="185e29af-bd47-4a41-9325-5ba9ff3caba4" name="Id" isNullable="false" position="-1" groupByPriority="0" inherited="false" instanceType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='Guid'" isReadOnly="false">
+      <FormRenderingProfile />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+    <DataFieldDescriptor id="2dd4dbab-5fc9-4513-b248-5fe1650cbc81" name="Tag" isNullable="false" position="0" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='String'Length='32'" isReadOnly="false" defaultValue="ValueType='String'Value=''">
+      <FormRenderingProfile label="Tag" helpText="The tag for the blog entry." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.String.TextBox&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups>
+        <ValidationFunctionMarkup markup="&lt;f:function xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Community.Blog.TagValidatorContainer.TagValidator&quot; /&gt;" />
+      </ValidationFunctionMarkups>
+    </DataFieldDescriptor>
+  </Fields>
+</DataTypeDescriptor>

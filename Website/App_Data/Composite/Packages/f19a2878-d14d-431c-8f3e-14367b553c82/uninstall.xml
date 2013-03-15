@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\Xslt\Composite\Media\YouTube.xsl" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.IParameter,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="OwnerId" value="4eafb5af-c1cf-42aa-b9fa-81a20b2bbd33" />
+              <Key name="ParameterId" value="e5354394-70d4-413a-afae-560afca8995a" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="4eafb5af-c1cf-42aa-b9fa-81a20b2bbd33" />
+              <Key name="ParameterId" value="e7898026-2d76-4fbd-a99b-73c00c2ac787" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="4eafb5af-c1cf-42aa-b9fa-81a20b2bbd33" />
+              <Key name="ParameterId" value="70c5eabb-072d-4a8d-a60e-ebc0b113afe3" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="4eafb5af-c1cf-42aa-b9fa-81a20b2bbd33" />
+              <Key name="ParameterId" value="4a666e13-da71-4c7a-ad7c-ee92d875006f" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IXsltFunction,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="4eafb5af-c1cf-42aa-b9fa-81a20b2bbd33" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>

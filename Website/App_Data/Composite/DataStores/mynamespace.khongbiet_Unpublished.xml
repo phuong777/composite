@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<khongbiets>
+  <khongbiet Id="bb51cec9-48de-4e3f-b957-df36b5f43ba4" field="con me no" abc="khon nan" PublicationStatus="draft" />
+  <khongbiet Id="2db299e3-b144-4d0f-8def-bbfbe4f59a9a" field="test1" abc="hehehe" PublicationStatus="draft" />
+</khongbiets>

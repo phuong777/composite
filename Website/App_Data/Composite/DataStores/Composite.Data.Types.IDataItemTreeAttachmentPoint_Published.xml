@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataItemTreeAttachmentPointElementss>
+  <DataItemTreeAttachmentPointElements Id="ce403942-e4be-4bb0-ada7-5e42814cd017" TreeId="Composite.Community.Blog.Entries.xml" Position="Top" InterfaceType="Composite.Data.Types.IPage,Composite" KeyValue="a5f19a94-994f-45b0-b8ce-aa0f1b2e6d96" />
+  <DataItemTreeAttachmentPointElements Id="6e60e7aa-7751-40c3-b245-4b430b2c63ab" TreeId="Composite.Community.Blog.Entries.xml" Position="Top" InterfaceType="Composite.Data.Types.IPage,Composite" KeyValue="268c91da-7ad8-4003-b8c4-1df862ae5097" />
+</DataItemTreeAttachmentPointElementss>

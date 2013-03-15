@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataTypeDescriptor dataTypeId="afe92d8a-1e06-43c8-a5bb-e29603e80197" name="SplashImage" namespace="Omnicorp.Layout" title="Splash Image" hasCustomPhysicalSortOrder="false" isCodeGenerated="true" cachable="false" labelFieldName="Image" typeManagerTypeName="Omnicorp.Layout.SplashImage">
+  <DataAssociations />
+  <DataScopes>
+    <DataScopeIdentifier name="administrated" />
+    <DataScopeIdentifier name="public" />
+  </DataScopes>
+  <KeyPropertyNames>
+    <KeyPropertyName name="Id" />
+  </KeyPropertyNames>
+  <SuperInterfaces>
+    <SuperInterface type="Composite.Data.ProcessControlled.IPublishControlled,Composite" />
+    <SuperInterface type="Composite.Data.ProcessControlled.IProcessControlled,Composite" />
+    <SuperInterface type="Composite.Data.ProcessControlled.ILocalizedControlled,Composite" />
+    <SuperInterface type="Composite.Data.IPageData,Composite" />
+    <SuperInterface type="Composite.Data.IPageMetaData,Composite" />
+  </SuperInterfaces>
+  <Fields>
+    <DataFieldDescriptor id="9d6d3a94-86a7-46b3-b7cc-7835ea2d0f75" name="Image" isNullable="true" position="0" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='String'Length='512'" isReadOnly="false" defaultValue="ValueType='String'Value=''" foreignKeyReferenceTypeName="Composite.Data.Types.IImageFile,Composite">
+      <FormRenderingProfile label="Splash image" helpText="The splash image on this page is automatically inherited to subpages unless modified." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.ImageSelector&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&#xD;&#xA; &lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&#xD;&#xA; &lt;f:param name=&quot;MediaFileFolderReference&quot; value=&quot;MediaArchive:c974ef3d-74f8-410c-a439-252ea7794ebb&quot; /&gt;&#xD;&#xA; &lt;f:param name=&quot;Required&quot; value=&quot;False&quot; /&gt;&#xD;&#xA;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+  </Fields>
+</DataTypeDescriptor>

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserElementss>
+  <UserElements Id="0d0e777e-8357-43e0-b6de-68faf25d9163" Username="enduser" EncryptedPassword="uUjWIF+cOm37oCBU+Tyf6w==" Email="" Group="Editors" />
+  <UserElements Id="a0a5532b-3208-4828-9180-0b702668dcbb" Username="developer" EncryptedPassword="uUjWIF+cOm37oCBU+Tyf6w==" Email="" Group="Developers" />
+  <UserElements Id="92f8bef2-96b8-4650-9c86-68cc6ad7fff8" Username="admin" EncryptedPassword="uUjWIF+cOm3uCTCISFvW6jD1z0VJE54A" Email="trangphuong618@gmail.com" Group="Administrators" />
+  <UserElements Id="afed2ef2-43fc-4a42-bf71-cdae4ba7abf2" Username="advuser" EncryptedPassword="uUjWIF+cOm37oCBU+Tyf6w==" Email="" Group="Editors" />
+</UserElementss>

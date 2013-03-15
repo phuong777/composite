@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInfo name="Composite.Media.FlashViewer" groupName="Composite.Media" version="1.2.4" author="Composite A/S" website="http://www.composite.net" description="Allows visitors to view Flash animations on pages." installDate="2013-03-12T15:08:27.6111093+07:00" installedBy="admin" isLocalInstalled="true" canBeUninstalled="true" flushOnCompletion="false" reloadConsoleOnCompletion="false" systemLocking="none" xmlns="http://www.composite.net/ns/management/packageinstaller/1.0" />

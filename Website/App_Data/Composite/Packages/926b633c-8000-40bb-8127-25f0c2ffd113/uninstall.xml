@@ -1,0 +1,1755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageInstaller xmlns="http://www.composite.net/ns/management/packageinstaller/1.0">
+  <PackageFragmentUninstallers>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.FilePackageFragmentUninstaller,Composite">
+      <Files xmlns="">
+        <File filename="~\App_Data\Xslt\Omnicorp\Content\Foot.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Content\Footer.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Content\Head.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Content\News.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Content\Projects.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Content\RandomSpot.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Content\SpotsRendering.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Layout\SplashImage.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Layout\SplashText.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Navigation\Quick.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Navigation\Sitemap.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Navigation\Sub.xsl" />
+        <File filename="~\App_Data\Xslt\Omnicorp\Navigation\Top.xsl" />
+        <File filename="~\App_Data\PageTemplates\DefaultPage.xml" />
+        <File filename="~\App_Data\PageTemplates\FrontPage.xml" />
+        <File filename="~\App_Data\PageTemplates\UltraWidePage.xml" />
+        <File filename="~\App_Data\PageTemplates\WidePage (no menu).xml" />
+        <File filename="~\App_Data\PageTemplates\WidePage (no spots).xml" />
+        <File filename="~\Frontend\Styles\Print.css" />
+        <File filename="~\Frontend\Styles\Screen.css" />
+        <File filename="~\Frontend\Styles\VisualEditor.common.css" />
+        <File filename="~\App_Data\Media\02644b63-6bf8-4c67-83e4-f5bfb44fc02e" />
+        <File filename="~\App_Data\Media\07ae9931-a105-412d-a96d-c1e03a829fcb" />
+        <File filename="~\App_Data\Media\0bb82947-956c-49c8-ac46-9bb4d149730e" />
+        <File filename="~\App_Data\Media\0f8c52bf-2b0b-4d5c-abdc-6f0759226820" />
+        <File filename="~\App_Data\Media\155c1d20-ac36-441d-8001-8747356c317c" />
+        <File filename="~\App_Data\Media\16d7e359-1595-4e95-80b0-af7468f361d8" />
+        <File filename="~\App_Data\Media\1a0aa123-d439-4d0c-b4ec-c161ca88491f" />
+        <File filename="~\App_Data\Media\1d3363c2-122d-4151-9665-8722a02f3db1" />
+        <File filename="~\App_Data\Media\1d96d262-cb14-4fca-ae54-18e506d8f1fa" />
+        <File filename="~\App_Data\Media\21b94c33-4185-4fe5-8d80-4ce925eb0c28" />
+        <File filename="~\App_Data\Media\2de47c6e-824c-4c77-b58d-3a80659c4baa" />
+        <File filename="~\App_Data\Media\2e424330-8822-4f09-8e38-8d668cd66f4f" />
+        <File filename="~\App_Data\Media\37a15ad6-60b3-4594-a52a-a96439932f30" />
+        <File filename="~\App_Data\Media\3a5f0dd5-cff4-4c19-b30b-f8038db2cfea" />
+        <File filename="~\App_Data\Media\3d55dd14-f152-46a1-862f-fe9f2a3ed91c" />
+        <File filename="~\App_Data\Media\447129d6-cff5-4ca9-aea5-32dc8a1a145a" />
+        <File filename="~\App_Data\Media\585d1ebf-3aba-48cc-a22f-58429131de19" />
+        <File filename="~\App_Data\Media\593ad2da-5c53-4f09-9ab9-66173a9439a1" />
+        <File filename="~\App_Data\Media\59d14299-9b34-4064-b5cb-300a507863e9" />
+        <File filename="~\App_Data\Media\6282563b-9763-4d67-a7d9-62d93a217053" />
+        <File filename="~\App_Data\Media\62dad7c1-dfe6-442c-ab0f-01cddfcaf0e5" />
+        <File filename="~\App_Data\Media\65b1d51f-52d7-477a-b50b-d8f8d3feaebc" />
+        <File filename="~\App_Data\Media\66816159-5652-45b2-8099-0916f760febe" />
+        <File filename="~\App_Data\Media\692808ee-6fb1-4e27-90cb-e5d52eb0a925" />
+        <File filename="~\App_Data\Media\6fe4f684-6573-4cfe-9798-d7ff787e5d1f" />
+        <File filename="~\App_Data\Media\767f5e21-082c-4062-9820-8910cbe541f8" />
+        <File filename="~\App_Data\Media\778c731e-0fa1-4d2c-9540-249bcce45ff9" />
+        <File filename="~\App_Data\Media\797ba53e-17ea-42d1-9668-0368983c55b4" />
+        <File filename="~\App_Data\Media\7b31125d-3a7b-4686-821d-bd66dc9ad043" />
+        <File filename="~\App_Data\Media\8aca0033-8fd5-4c82-a7b7-9b5f24b358e7" />
+        <File filename="~\App_Data\Media\8c24d603-38e5-43fe-a883-9ec7b871971b" />
+        <File filename="~\App_Data\Media\98a52e8b-afdc-45e7-adf0-6fd15deb12ff" />
+        <File filename="~\App_Data\Media\9f0269ab-8d14-4509-8702-920ca7b6f190" />
+        <File filename="~\App_Data\Media\aa1082d0-807f-46b0-9cd2-81e9125ef35a" />
+        <File filename="~\App_Data\Media\b261615c-6d3d-488b-b402-75691cd4b8d5" />
+        <File filename="~\App_Data\Media\b8b3723f-c984-462e-840a-1944cc5760f4" />
+        <File filename="~\App_Data\Media\b90521ff-984c-4eb9-a64e-54c8d4f527e2" />
+        <File filename="~\App_Data\Media\bb010898-8783-4df8-8ded-20faf74e4d96" />
+        <File filename="~\App_Data\Media\bc6f5a48-d4fb-4a3b-8d10-d4b707dbcc3e" />
+        <File filename="~\App_Data\Media\d9d9bf0b-3a51-40d6-ab99-a06a6588cf5b" />
+        <File filename="~\App_Data\Media\e57fe1f0-269c-4783-b80f-66bc7538bc8f" />
+        <File filename="~\App_Data\Media\e96bd4a6-a65c-4b44-a88c-24bea0088854" />
+        <File filename="~\App_Data\Media\f3ef3fb6-5c9d-48df-8047-bd9de011db97" />
+        <File filename="~\App_Data\Composite\DynamicTypeForms\Omnicorp/Content/AllSpots.xml" />
+        <File filename="~\App_Data\Composite\DynamicTypeForms\Omnicorp/Content/News.xml" />
+        <File filename="~\App_Data\Composite\TreeDefinitions\News.xml" />
+        <File filename="~\Frontend\Styles\Pages\AboutUs.css" />
+        <File filename="~\Frontend\Styles\Pages\FrontPage.css" />
+        <File filename="~\Frontend\Styles\Pages\Sitemap.css" />
+        <File filename="~\Frontend\Styles\Pages\TermsAndPrivacy.css" />
+        <File filename="~\Frontend\Styles\Layouts\UltraWidePage.css" />
+        <File filename="~\Frontend\Styles\Layouts\WidePageNoMenu.css" />
+        <File filename="~\Frontend\Styles\Layouts\WidePageNoSpots.css" />
+        <File filename="~\Frontend\Styles\Functions\News.css" />
+        <File filename="~\Frontend\Styles\Functions\Sitemap.css" />
+        <File filename="~\Frontend\Images\c1tip.png" />
+        <File filename="~\Frontend\Images\gradient.png" />
+        <File filename="~\Frontend\Images\logo.png" />
+        <File filename="~\Frontend\Images\rss.png" />
+        <File filename="~\Frontend\Config\VisualEditor/common.xml" />
+        <File filename="~\Frontend\Config\VisualEditor/Images/bold.png" />
+        <File filename="~\Frontend\Config\VisualEditor/Images/italic.png" />
+        <File filename="~\Frontend\Config\VisualEditor/Images/left.png" />
+        <File filename="~\Frontend\Config\VisualEditor/Images/right.png" />
+        <File filename="~\Frontend\Config\VisualEditor/Styles/common.css" />
+        <File filename="~\Frontend\Config\VisualEditor/Styles/core.css" />
+      </Files>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DynamicDataTypePackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type typeId="cba8c874-e5a5-4587-9f68-da5e5617c21d" />
+        <Type typeId="bb913e4d-c4d4-475b-9385-6d706cbad697" />
+        <Type typeId="7714777f-de1b-4a00-85ae-7ecd771b145d" />
+        <Type typeId="afe92d8a-1e06-43c8-a5bb-e29603e80197" />
+        <Type typeId="9a62462a-7a87-400b-bce6-8e4c8a65eb97" />
+      </Types>
+    </Add>
+    <Add uninstallerType="Composite.Core.PackageSystem.PackageFragmentInstallers.DataPackageFragmentUninstaller,Composite">
+      <Types xmlns="">
+        <Type type="Composite.Data.Types.IUser,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="0d0e777e-8357-43e0-b6de-68faf25d9163" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a0a5532b-3208-4828-9180-0b702668dcbb" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="afed2ef2-43fc-4a42-bf71-cdae4ba7abf2" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IUserUserGroupRelation,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="UserGroupId" value="c3d9049e-f95e-4375-a3fa-af3ee9f40606" />
+              <Key name="UserId" value="0d0e777e-8357-43e0-b6de-68faf25d9163" />
+            </Keys>
+            <Keys>
+              <Key name="UserGroupId" value="0dd7fdb9-dd4b-4990-a0ec-b42cca61e39c" />
+              <Key name="UserId" value="a0a5532b-3208-4828-9180-0b702668dcbb" />
+            </Keys>
+            <Keys>
+              <Key name="UserGroupId" value="c3d9049e-f95e-4375-a3fa-af3ee9f40606" />
+              <Key name="UserId" value="afed2ef2-43fc-4a42-bf71-cdae4ba7abf2" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IUserActivePerspective,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="86eede97-9791-4fa3-8b70-a0a262fcff3a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="930a35b5-c084-4d06-887d-df9593c86f3f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e0a38fa8-3783-47d7-8469-6050da180f93" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="83433bcd-34c7-44e6-95f5-a2badef2a5ba" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="bedb4c52-94bc-417a-b07f-b9d76b43f5bb" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IUserSettings,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Username" value="advuser" />
+            </Keys>
+            <Keys>
+              <Key name="Username" value="developer" />
+            </Keys>
+            <Keys>
+              <Key name="Username" value="enduser" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IGeneratedTypeWhiteList,Composite" dataScopeIdentifier="administrated">
+          <Datas>
+            <Keys>
+              <Key name="TypeManagerTypeName" value="DynamicType:Omnicorp.Content.AllSpots" />
+            </Keys>
+            <Keys>
+              <Key name="TypeManagerTypeName" value="Omnicorp.Content.AllSpots" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IMediaFileData,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="e96bd4a6-a65c-4b44-a88c-24bea0088854" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="02644b63-6bf8-4c67-83e4-f5bfb44fc02e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="f3ef3fb6-5c9d-48df-8047-bd9de011db97" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="778c731e-0fa1-4d2c-9540-249bcce45ff9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b261615c-6d3d-488b-b402-75691cd4b8d5" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="66816159-5652-45b2-8099-0916f760febe" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="d9d9bf0b-3a51-40d6-ab99-a06a6588cf5b" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="98a52e8b-afdc-45e7-adf0-6fd15deb12ff" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7b31125d-3a7b-4686-821d-bd66dc9ad043" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="07ae9931-a105-412d-a96d-c1e03a829fcb" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="bc6f5a48-d4fb-4a3b-8d10-d4b707dbcc3e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6282563b-9763-4d67-a7d9-62d93a217053" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0bb82947-956c-49c8-ac46-9bb4d149730e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="692808ee-6fb1-4e27-90cb-e5d52eb0a925" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="447129d6-cff5-4ca9-aea5-32dc8a1a145a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b90521ff-984c-4eb9-a64e-54c8d4f527e2" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6fe4f684-6573-4cfe-9798-d7ff787e5d1f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e57fe1f0-269c-4783-b80f-66bc7538bc8f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="37a15ad6-60b3-4594-a52a-a96439932f30" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="aa1082d0-807f-46b0-9cd2-81e9125ef35a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="16d7e359-1595-4e95-80b0-af7468f361d8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="797ba53e-17ea-42d1-9668-0368983c55b4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="3d55dd14-f152-46a1-862f-fe9f2a3ed91c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="3a5f0dd5-cff4-4c19-b30b-f8038db2cfea" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="8c24d603-38e5-43fe-a883-9ec7b871971b" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="59d14299-9b34-4064-b5cb-300a507863e9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="2de47c6e-824c-4c77-b58d-3a80659c4baa" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b8b3723f-c984-462e-840a-1944cc5760f4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="155c1d20-ac36-441d-8001-8747356c317c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="767f5e21-082c-4062-9820-8910cbe541f8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1d96d262-cb14-4fca-ae54-18e506d8f1fa" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1d3363c2-122d-4151-9665-8722a02f3db1" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="2e424330-8822-4f09-8e38-8d668cd66f4f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0f8c52bf-2b0b-4d5c-abdc-6f0759226820" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="bb010898-8783-4df8-8ded-20faf74e4d96" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="585d1ebf-3aba-48cc-a22f-58429131de19" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="62dad7c1-dfe6-442c-ab0f-01cddfcaf0e5" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="593ad2da-5c53-4f09-9ab9-66173a9439a1" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9f0269ab-8d14-4509-8702-920ca7b6f190" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="65b1d51f-52d7-477a-b50b-d8f8d3feaebc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1a0aa123-d439-4d0c-b4ec-c161ca88491f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="21b94c33-4185-4fe5-8d80-4ce925eb0c28" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="8aca0033-8fd5-4c82-a7b7-9b5f24b358e7" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IMediaFolderData,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="d66b5ee5-7fa4-4f38-9968-40e3aae2f2f6" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ba0e1efd-cb29-47ab-bd41-75dbab1442c2" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7146d61b-781c-4f31-9047-4454074980dc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="8a958cca-47f0-4c90-b8a0-829e94d0365c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7a2572e2-704d-40b9-bf83-85dc98119b69" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c974ef3d-74f8-410c-a439-252ea7794ebb" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.INamedFunctionCall,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="XsltFunctionId" value="fd0bc9a0-3958-411b-bc27-b52a40b78e24" />
+              <Key name="Name" value="CurrentCulture" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="cfc89e78-d045-4c38-a4de-a0216f9f1f29" />
+              <Key name="Name" value="QueryStringValue" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="c4d22f59-9bf8-42e7-adef-2b5956088c31" />
+              <Key name="Name" value="DateFormatting" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="c4d22f59-9bf8-42e7-adef-2b5956088c31" />
+              <Key name="Name" value="GetNewsXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="c4d22f59-9bf8-42e7-adef-2b5956088c31" />
+              <Key name="Name" value="GetPageId" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="c4d22f59-9bf8-42e7-adef-2b5956088c31" />
+              <Key name="Name" value="MarkupParser" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="c4d22f59-9bf8-42e7-adef-2b5956088c31" />
+              <Key name="Name" value="QueryStringValue" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="cd631589-d18e-47b4-8b5a-1cc3b3b1d0f9" />
+              <Key name="Name" value="GetAllSpotsXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="cd631589-d18e-47b4-8b5a-1cc3b3b1d0f9" />
+              <Key name="Name" value="MarkupParser" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="b69913b0-2ebf-4bf6-b12e-3571a06135f9" />
+              <Key name="Name" value="GetAllSpotsXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="b69913b0-2ebf-4bf6-b12e-3571a06135f9" />
+              <Key name="Name" value="GetPageSpotsXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="b69913b0-2ebf-4bf6-b12e-3571a06135f9" />
+              <Key name="Name" value="MarkupParser" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="b69913b0-2ebf-4bf6-b12e-3571a06135f9" />
+              <Key name="Name" value="SitemapXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="114817dc-d6a9-4b8e-837d-04689bbd2d13" />
+              <Key name="Name" value="GetSplashImageXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="114817dc-d6a9-4b8e-837d-04689bbd2d13" />
+              <Key name="Name" value="SitemapXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="114817dc-d6a9-4b8e-837d-04689bbd2d13" />
+              <Key name="Name" value="ApplicationPath" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="e4e23060-61b0-4ea0-84e9-323f8a558c51" />
+              <Key name="Name" value="GetSplashTextXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="88970a84-4a58-4a7d-8a84-9712ed60351a" />
+              <Key name="Name" value="CurrentCulture" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="88970a84-4a58-4a7d-8a84-9712ed60351a" />
+              <Key name="Name" value="DateFormatting" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="88970a84-4a58-4a7d-8a84-9712ed60351a" />
+              <Key name="Name" value="GetForeignPageInfo" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="88970a84-4a58-4a7d-8a84-9712ed60351a" />
+              <Key name="Name" value="Now" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="88970a84-4a58-4a7d-8a84-9712ed60351a" />
+              <Key name="Name" value="SitemapXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="5035edcf-309e-4f20-844c-7462893801c0" />
+              <Key name="Name" value="SitemapXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="07940099-9b6e-441e-8fb5-f97a13748ae9" />
+              <Key name="Name" value="SitemapXml" />
+            </Keys>
+            <Keys>
+              <Key name="XsltFunctionId" value="b2e98ccf-e1fe-4f2d-85d1-b3b79099f797" />
+              <Key name="Name" value="SitemapXml" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IPageStructure,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="49279e98-8835-4bee-b906-daba0b915963" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="dd7ec1e9-2498-4117-8698-320fb31ba70c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a5f19a94-994f-45b0-b8ce-aa0f1b2e6d96" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="fc84df32-5144-4602-9247-8f527f4bf15c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ca8c4bdb-3483-4771-8a05-5dc9fc29c82e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="59811f04-b051-439e-aedf-441ea18532e1" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1f95c63e-7bda-4b7f-93ad-d168e79caba9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ce057106-d785-4a34-89b8-acc10e3adaa6" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="eab5e806-caed-4d71-8268-7b57fe61b30a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e59b5870-4bb0-416e-b759-05b50339303d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="f95261d2-dc5e-4304-9a2d-ef27a18e63b8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="23958ceb-a18f-4f04-b507-ff76adc927ab" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1498a326-f0ff-4742-a7eb-742511a9863f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="850c1c4b-71c6-408d-aa8b-409fdca3a676" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a822a354-2a03-46f3-8b5f-8ee23ad25dd9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="69f9e0f1-e2ce-4b99-a1ba-5117964b0793" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="d2c05ce4-d7b2-41a9-82e9-24101887c1a8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ca9e99df-2aca-46f6-a577-fe85f43000bb" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="dcf17a8b-f9b9-4eb2-a341-475cb7f4299e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="398932b1-314b-4baf-b3f0-b1445f806aae" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="3b5d59a7-cd9a-41ae-869f-2fc8e8884ef9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0e5ab38e-0463-4003-907f-40d7d9eaf50f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7ead8cee-af5c-4a18-9f14-3fcf282358fc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="be41b811-b03f-4323-82f9-f4013fef00b2" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="67fbca08-fd0e-472d-a836-0bc496191937" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4dfc1b0f-9cbf-4308-b9e8-53d89d93f054" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="69341281-7ca9-4922-b17d-f2d1962fadbd" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6827f674-8948-4f15-94dc-8069bda47822" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9c1cf9e7-a771-4b0a-817e-2cd0b69709bc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c9f9bd57-b5fe-49b4-87b4-28d4f447d781" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4617564e-3528-4f3b-af2c-72c4e83783a8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6f11338c-3f6a-4b2a-953d-f25ec8571dc3" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6bc139a9-8966-4900-b9eb-dfdd9ec983ae" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IPageTemplate,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="a0a572ad-6b3c-471d-a771-389d4e3a0454" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="78b4bacb-1bb6-4b28-9b39-2148e0223f90" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="01364759-0c32-45ba-a1c2-321fcf375e60" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="38997991-c5b0-4aae-884d-3237987c0d7b" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c33157d6-6bd6-45e6-869b-d1aceba7bb63" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IPageType,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="162ceadc-deba-4eed-8c19-fa26fd4047c3" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IParameter,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="OwnerId" value="cd631589-d18e-47b4-8b5a-1cc3b3b1d0f9" />
+              <Key name="ParameterId" value="b8033804-8377-4d44-ad7f-7a38ed93ea53" />
+            </Keys>
+            <Keys>
+              <Key name="OwnerId" value="5035edcf-309e-4f20-844c-7462893801c0" />
+              <Key name="ParameterId" value="41b154af-7870-4cc6-b3cd-270d93fe927d" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IXsltFunction,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="fd0bc9a0-3958-411b-bc27-b52a40b78e24" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0572db27-0b0a-4ed4-837c-0bc0fb267c65" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="cfc89e78-d045-4c38-a4de-a0216f9f1f29" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c4d22f59-9bf8-42e7-adef-2b5956088c31" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4f82cc9f-b946-4c68-9081-f715c564767c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="cd631589-d18e-47b4-8b5a-1cc3b3b1d0f9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b69913b0-2ebf-4bf6-b12e-3571a06135f9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="114817dc-d6a9-4b8e-837d-04689bbd2d13" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e4e23060-61b0-4ea0-84e9-323f8a558c51" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="88970a84-4a58-4a7d-8a84-9712ed60351a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="5035edcf-309e-4f20-844c-7462893801c0" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="07940099-9b6e-441e-8fb5-f97a13748ae9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b2e98ccf-e1fe-4f2d-85d1-b3b79099f797" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Omnicorp.Content.AllSpots" dataScopeIdentifier="public">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="06f41e1f-b7a5-4020-b008-3d58b4024785" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e834e574-4738-4e36-8d13-7541687b8b03" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6bef7c23-8a7a-4b08-91b9-b8d28b4353dc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ea280f63-4e7b-47ba-acd5-8a6d8a6ab224" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b9bf840f-d053-46bd-b884-c9c5a4e7d856" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9f1f5e5a-54cc-494d-87c0-c58b76af8a80" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="03f7153f-0709-44e1-b11c-0633c3a69fd6" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="5bd8830c-006d-4405-838c-5e4fe66a4230" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Omnicorp.Content.News" dataScopeIdentifier="public">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="af2b85b4-55ac-49da-b2cc-b8db1e896d5b" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="656e248c-4931-4a8e-9d89-287b8071a2b3" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4a85a94a-aa24-4e1d-80a7-337aa280f45b" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="45a0b62c-d037-47a6-af20-7295a6b456c6" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="d01b974c-7483-445a-8fb0-a49d6fa492e6" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0c6ab563-21ac-4d65-8c1e-9873202d408a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="21951046-a850-44fd-b024-4b789e5535e9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="fd5965cd-c91c-4cfc-930e-e350c5369100" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ba986f26-cf36-4b3e-b015-9c35098237cc" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IPage,Composite" dataScopeIdentifier="administrated">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="49279e98-8835-4bee-b906-daba0b915963" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="dd7ec1e9-2498-4117-8698-320fb31ba70c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a5f19a94-994f-45b0-b8ce-aa0f1b2e6d96" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="fc84df32-5144-4602-9247-8f527f4bf15c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ca8c4bdb-3483-4771-8a05-5dc9fc29c82e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="59811f04-b051-439e-aedf-441ea18532e1" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1f95c63e-7bda-4b7f-93ad-d168e79caba9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ce057106-d785-4a34-89b8-acc10e3adaa6" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="eab5e806-caed-4d71-8268-7b57fe61b30a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e59b5870-4bb0-416e-b759-05b50339303d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="f95261d2-dc5e-4304-9a2d-ef27a18e63b8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="23958ceb-a18f-4f04-b507-ff76adc927ab" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1498a326-f0ff-4742-a7eb-742511a9863f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="850c1c4b-71c6-408d-aa8b-409fdca3a676" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a822a354-2a03-46f3-8b5f-8ee23ad25dd9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="69f9e0f1-e2ce-4b99-a1ba-5117964b0793" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="d2c05ce4-d7b2-41a9-82e9-24101887c1a8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ca9e99df-2aca-46f6-a577-fe85f43000bb" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="dcf17a8b-f9b9-4eb2-a341-475cb7f4299e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="398932b1-314b-4baf-b3f0-b1445f806aae" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="3b5d59a7-cd9a-41ae-869f-2fc8e8884ef9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0e5ab38e-0463-4003-907f-40d7d9eaf50f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7ead8cee-af5c-4a18-9f14-3fcf282358fc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="be41b811-b03f-4323-82f9-f4013fef00b2" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="67fbca08-fd0e-472d-a836-0bc496191937" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4dfc1b0f-9cbf-4308-b9e8-53d89d93f054" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="69341281-7ca9-4922-b17d-f2d1962fadbd" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6827f674-8948-4f15-94dc-8069bda47822" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9c1cf9e7-a771-4b0a-817e-2cd0b69709bc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c9f9bd57-b5fe-49b4-87b4-28d4f447d781" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4617564e-3528-4f3b-af2c-72c4e83783a8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6f11338c-3f6a-4b2a-953d-f25ec8571dc3" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6bc139a9-8966-4900-b9eb-dfdd9ec983ae" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IPage,Composite" dataScopeIdentifier="public">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="49279e98-8835-4bee-b906-daba0b915963" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="dd7ec1e9-2498-4117-8698-320fb31ba70c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a5f19a94-994f-45b0-b8ce-aa0f1b2e6d96" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="fc84df32-5144-4602-9247-8f527f4bf15c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ca8c4bdb-3483-4771-8a05-5dc9fc29c82e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="59811f04-b051-439e-aedf-441ea18532e1" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1f95c63e-7bda-4b7f-93ad-d168e79caba9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ce057106-d785-4a34-89b8-acc10e3adaa6" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="eab5e806-caed-4d71-8268-7b57fe61b30a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e59b5870-4bb0-416e-b759-05b50339303d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="f95261d2-dc5e-4304-9a2d-ef27a18e63b8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="23958ceb-a18f-4f04-b507-ff76adc927ab" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1498a326-f0ff-4742-a7eb-742511a9863f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="850c1c4b-71c6-408d-aa8b-409fdca3a676" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a822a354-2a03-46f3-8b5f-8ee23ad25dd9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="69f9e0f1-e2ce-4b99-a1ba-5117964b0793" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="d2c05ce4-d7b2-41a9-82e9-24101887c1a8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ca9e99df-2aca-46f6-a577-fe85f43000bb" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="dcf17a8b-f9b9-4eb2-a341-475cb7f4299e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="398932b1-314b-4baf-b3f0-b1445f806aae" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="3b5d59a7-cd9a-41ae-869f-2fc8e8884ef9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0e5ab38e-0463-4003-907f-40d7d9eaf50f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7ead8cee-af5c-4a18-9f14-3fcf282358fc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="be41b811-b03f-4323-82f9-f4013fef00b2" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="67fbca08-fd0e-472d-a836-0bc496191937" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4dfc1b0f-9cbf-4308-b9e8-53d89d93f054" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="69341281-7ca9-4922-b17d-f2d1962fadbd" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6827f674-8948-4f15-94dc-8069bda47822" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9c1cf9e7-a771-4b0a-817e-2cd0b69709bc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c9f9bd57-b5fe-49b4-87b4-28d4f447d781" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4617564e-3528-4f3b-af2c-72c4e83783a8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6f11338c-3f6a-4b2a-953d-f25ec8571dc3" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6bc139a9-8966-4900-b9eb-dfdd9ec983ae" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IPageMetaDataDefinition,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="c6b157dc-baeb-41a0-b062-8b5a02f2b6fe" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4b1f4627-be89-42cf-b5de-e3cda7182709" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="bc0ca02c-3fc0-4f08-ac64-40f275d39219" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="601c4320-292e-42b1-ad8d-687222d1ee22" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e3dad216-eabc-407e-9577-8961278309cc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="05299ad4-93e6-49cc-9515-6b0d84897fb5" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IPagePlaceholderContent,Composite" dataScopeIdentifier="administrated">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="PageId" value="ca8c4bdb-3483-4771-8a05-5dc9fc29c82e" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="c9f9bd57-b5fe-49b4-87b4-28d4f447d781" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="3b5d59a7-cd9a-41ae-869f-2fc8e8884ef9" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="a5f19a94-994f-45b0-b8ce-aa0f1b2e6d96" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="dcf17a8b-f9b9-4eb2-a341-475cb7f4299e" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="4dfc1b0f-9cbf-4308-b9e8-53d89d93f054" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="69f9e0f1-e2ce-4b99-a1ba-5117964b0793" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="dd7ec1e9-2498-4117-8698-320fb31ba70c" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="fc84df32-5144-4602-9247-8f527f4bf15c" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="a822a354-2a03-46f3-8b5f-8ee23ad25dd9" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="e59b5870-4bb0-416e-b759-05b50339303d" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="4617564e-3528-4f3b-af2c-72c4e83783a8" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="67fbca08-fd0e-472d-a836-0bc496191937" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="69f9e0f1-e2ce-4b99-a1ba-5117964b0793" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="ce057106-d785-4a34-89b8-acc10e3adaa6" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="f95261d2-dc5e-4304-9a2d-ef27a18e63b8" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="6827f674-8948-4f15-94dc-8069bda47822" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="850c1c4b-71c6-408d-aa8b-409fdca3a676" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="398932b1-314b-4baf-b3f0-b1445f806aae" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="eab5e806-caed-4d71-8268-7b57fe61b30a" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="f95261d2-dc5e-4304-9a2d-ef27a18e63b8" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="1f95c63e-7bda-4b7f-93ad-d168e79caba9" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="23958ceb-a18f-4f04-b507-ff76adc927ab" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="be41b811-b03f-4323-82f9-f4013fef00b2" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="9c1cf9e7-a771-4b0a-817e-2cd0b69709bc" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="398932b1-314b-4baf-b3f0-b1445f806aae" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="6bc139a9-8966-4900-b9eb-dfdd9ec983ae" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="0e5ab38e-0463-4003-907f-40d7d9eaf50f" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="7ead8cee-af5c-4a18-9f14-3fcf282358fc" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="1f95c63e-7bda-4b7f-93ad-d168e79caba9" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="fc84df32-5144-4602-9247-8f527f4bf15c" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="69341281-7ca9-4922-b17d-f2d1962fadbd" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="a5f19a94-994f-45b0-b8ce-aa0f1b2e6d96" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="d2c05ce4-d7b2-41a9-82e9-24101887c1a8" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="ca9e99df-2aca-46f6-a577-fe85f43000bb" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="49279e98-8835-4bee-b906-daba0b915963" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="ca9e99df-2aca-46f6-a577-fe85f43000bb" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="6f11338c-3f6a-4b2a-953d-f25ec8571dc3" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="59811f04-b051-439e-aedf-441ea18532e1" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="1498a326-f0ff-4742-a7eb-742511a9863f" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IPagePlaceholderContent,Composite" dataScopeIdentifier="public">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="PageId" value="4617564e-3528-4f3b-af2c-72c4e83783a8" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="ca8c4bdb-3483-4771-8a05-5dc9fc29c82e" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="c9f9bd57-b5fe-49b4-87b4-28d4f447d781" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="3b5d59a7-cd9a-41ae-869f-2fc8e8884ef9" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="a5f19a94-994f-45b0-b8ce-aa0f1b2e6d96" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="dcf17a8b-f9b9-4eb2-a341-475cb7f4299e" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="4dfc1b0f-9cbf-4308-b9e8-53d89d93f054" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="69f9e0f1-e2ce-4b99-a1ba-5117964b0793" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="dd7ec1e9-2498-4117-8698-320fb31ba70c" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="fc84df32-5144-4602-9247-8f527f4bf15c" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="a822a354-2a03-46f3-8b5f-8ee23ad25dd9" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="e59b5870-4bb0-416e-b759-05b50339303d" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="67fbca08-fd0e-472d-a836-0bc496191937" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="69f9e0f1-e2ce-4b99-a1ba-5117964b0793" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="f95261d2-dc5e-4304-9a2d-ef27a18e63b8" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="6827f674-8948-4f15-94dc-8069bda47822" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="850c1c4b-71c6-408d-aa8b-409fdca3a676" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="398932b1-314b-4baf-b3f0-b1445f806aae" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="398932b1-314b-4baf-b3f0-b1445f806aae" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="eab5e806-caed-4d71-8268-7b57fe61b30a" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="f95261d2-dc5e-4304-9a2d-ef27a18e63b8" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="1f95c63e-7bda-4b7f-93ad-d168e79caba9" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="23958ceb-a18f-4f04-b507-ff76adc927ab" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="be41b811-b03f-4323-82f9-f4013fef00b2" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="ce057106-d785-4a34-89b8-acc10e3adaa6" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="9c1cf9e7-a771-4b0a-817e-2cd0b69709bc" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="ca9e99df-2aca-46f6-a577-fe85f43000bb" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="6bc139a9-8966-4900-b9eb-dfdd9ec983ae" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="0e5ab38e-0463-4003-907f-40d7d9eaf50f" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="7ead8cee-af5c-4a18-9f14-3fcf282358fc" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="1f95c63e-7bda-4b7f-93ad-d168e79caba9" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="fc84df32-5144-4602-9247-8f527f4bf15c" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="69341281-7ca9-4922-b17d-f2d1962fadbd" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="a5f19a94-994f-45b0-b8ce-aa0f1b2e6d96" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="d2c05ce4-d7b2-41a9-82e9-24101887c1a8" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="49279e98-8835-4bee-b906-daba0b915963" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="ca9e99df-2aca-46f6-a577-fe85f43000bb" />
+              <Key name="PlaceHolderId" value="spotsplaceholder" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="6f11338c-3f6a-4b2a-953d-f25ec8571dc3" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="59811f04-b051-439e-aedf-441ea18532e1" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+            <Keys>
+              <Key name="PageId" value="1498a326-f0ff-4742-a7eb-742511a9863f" />
+              <Key name="PlaceHolderId" value="content" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Omnicorp.Content.PageSpots" dataScopeIdentifier="administrated">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="76216208-0d24-43d0-b194-83a9c443ae7f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="d8f61a4a-c0d0-4ac1-b969-83c2eee53227" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="88aca8aa-c6e7-41e9-95fb-572cd68464d3" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="f6725d3a-1eb9-4c06-b99f-fbcff1e48f82" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9c80d818-c794-4071-9bda-0327d0c410b4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="cfc350ef-8936-43e6-9897-722793a46449" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="5b80b57b-f694-465d-83a7-e4c8cc45483d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="5871750a-6cd3-44e6-82d9-c3582e750686" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="2844053c-e75c-47df-91ab-7999ec6c8f41" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0a54006d-20dc-4e80-a61a-a95b19531df7" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6e03ff6a-1771-4bda-9125-a680f9c3b198" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a997c597-c170-4520-b689-0863e74b3bbd" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6a266300-1f5f-42ef-922a-e0f136824c24" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b4b7ceb8-b137-4476-a2a4-6ea38e80386a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="662ce847-622a-49b3-9cfa-762a231ed491" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e32f70fd-011c-46f6-ba3f-9144ffb7bb30" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="12a3adb2-b8f3-495a-9a4e-fcd5ba5b6d5c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="034b1326-2242-42dc-b117-02bde6f7cb6e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c809b208-24e8-4cdd-82f5-e594f27bbe5c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4f49a370-7561-476e-871f-9e503d303793" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="efcd458a-771e-419f-96ef-5011473fb9e4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="387487fe-7caf-4e58-a2fa-71deaba7559e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7c751992-e10a-4c71-b1aa-67ce4ccea432" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9b214465-fbfe-4995-900a-037faf8bbd9b" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="65e4bb3c-1d61-4483-aa68-5df0781e99a9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="16722ffe-507d-435d-be83-0f0e2c27645c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="084c108e-bbaa-426a-a607-98778787e777" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9b6452c0-b6e4-4f0b-91ad-6f7cdcefb5f4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="5768b774-bf9e-494a-8f54-0de84846beb8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a8f7aad0-f3bf-4847-9a9f-8ace395ec316" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="8daad1a7-fac3-4361-83c5-abfb333df903" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="3f2592b4-7d30-4b14-bf03-ec82e02226cf" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="56e715d1-bc26-4051-9897-d7a22e9e1f37" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Omnicorp.Content.PageSpots" dataScopeIdentifier="public">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="76216208-0d24-43d0-b194-83a9c443ae7f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="d8f61a4a-c0d0-4ac1-b969-83c2eee53227" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="88aca8aa-c6e7-41e9-95fb-572cd68464d3" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="f6725d3a-1eb9-4c06-b99f-fbcff1e48f82" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9c80d818-c794-4071-9bda-0327d0c410b4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="cfc350ef-8936-43e6-9897-722793a46449" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="5b80b57b-f694-465d-83a7-e4c8cc45483d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="5871750a-6cd3-44e6-82d9-c3582e750686" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="2844053c-e75c-47df-91ab-7999ec6c8f41" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0a54006d-20dc-4e80-a61a-a95b19531df7" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6e03ff6a-1771-4bda-9125-a680f9c3b198" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a997c597-c170-4520-b689-0863e74b3bbd" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6a266300-1f5f-42ef-922a-e0f136824c24" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b4b7ceb8-b137-4476-a2a4-6ea38e80386a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="662ce847-622a-49b3-9cfa-762a231ed491" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e32f70fd-011c-46f6-ba3f-9144ffb7bb30" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="12a3adb2-b8f3-495a-9a4e-fcd5ba5b6d5c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="034b1326-2242-42dc-b117-02bde6f7cb6e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c809b208-24e8-4cdd-82f5-e594f27bbe5c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4f49a370-7561-476e-871f-9e503d303793" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="16722ffe-507d-435d-be83-0f0e2c27645c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="efcd458a-771e-419f-96ef-5011473fb9e4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="387487fe-7caf-4e58-a2fa-71deaba7559e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7c751992-e10a-4c71-b1aa-67ce4ccea432" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9b214465-fbfe-4995-900a-037faf8bbd9b" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="65e4bb3c-1d61-4483-aa68-5df0781e99a9" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="084c108e-bbaa-426a-a607-98778787e777" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9b6452c0-b6e4-4f0b-91ad-6f7cdcefb5f4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="5768b774-bf9e-494a-8f54-0de84846beb8" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a8f7aad0-f3bf-4847-9a9f-8ace395ec316" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="8daad1a7-fac3-4361-83c5-abfb333df903" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="3f2592b4-7d30-4b14-bf03-ec82e02226cf" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="56e715d1-bc26-4051-9897-d7a22e9e1f37" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Omnicorp.Layout.SplashImage" dataScopeIdentifier="administrated">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="0881ee5b-cbef-43cf-bdb9-63362bad2340" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="93ccc526-14a0-479e-8197-963f74240190" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="674a3a47-c672-4d21-87f0-5e1cafa4a1fb" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ce3163fe-7fd4-445a-b511-cd960f64cc5f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e6de3f12-f774-4955-a320-7a6022550076" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7aac6a3e-2f00-4996-b49e-9a6e678e025f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="42bb59a0-9c21-47f9-9a64-c7fea0151b58" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a624c925-1551-4d6b-b9ef-623b68fe499d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="8779079e-e3df-40ec-b1a9-663b10c5e04d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ec210ae8-e84b-4068-9943-6aa797d0ec1c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="53ebd25f-c9d9-4057-98d4-2a1c502b353a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4d9f6537-9301-4777-af99-7801fc91b45c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="aa2a2de2-ddae-425a-95c9-f722387aed1f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9959fc73-e1cd-4119-9ec0-2da42dc63939" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9336d75f-8fe9-4791-9487-39e44d392d2c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="18c7855f-a965-4aa7-8d88-457bb1392a08" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="35581aba-4f8c-43d5-9616-92f6e071bf84" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1c11c290-bc4f-43cb-b852-4f63175b6467" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="93927dce-04f1-4c94-aba2-5f5513abc7c0" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="8ffe9c39-6e62-406d-9e9b-ca506670c36e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="59c67e9a-6056-4782-a30f-5698897980ea" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="d178a506-c9b2-4841-89fb-654561fc08c4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ab937f33-da1e-4c44-825b-8b8c7ac5be40" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a513b5d1-7525-4d57-8edb-2c33fd9d48d1" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="aad4b3d7-3e97-4b87-aa87-4d15b1076e43" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="189524cf-5167-4fd1-a5b6-c301380d8e45" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="08341078-8334-4efa-aa22-48a633f7ab21" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="59eb516c-86a9-4eb1-9b8f-95383c8cce8a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6b70c14c-8394-46a8-b959-ee379dcb7c0e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ec2ae43c-6996-477d-af68-cb83dc68d42c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b8f5401f-72b7-4a7f-90c9-36e197a66467" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0e71feea-e0f2-4fa5-b7fe-c6dcb4e09661" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7f882faa-bfb6-4753-b614-eb1e86aa4d6f" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Omnicorp.Layout.SplashImage" dataScopeIdentifier="public">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="0881ee5b-cbef-43cf-bdb9-63362bad2340" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="93ccc526-14a0-479e-8197-963f74240190" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="674a3a47-c672-4d21-87f0-5e1cafa4a1fb" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ce3163fe-7fd4-445a-b511-cd960f64cc5f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e6de3f12-f774-4955-a320-7a6022550076" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9336d75f-8fe9-4791-9487-39e44d392d2c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7aac6a3e-2f00-4996-b49e-9a6e678e025f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="42bb59a0-9c21-47f9-9a64-c7fea0151b58" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a624c925-1551-4d6b-b9ef-623b68fe499d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="8779079e-e3df-40ec-b1a9-663b10c5e04d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ec210ae8-e84b-4068-9943-6aa797d0ec1c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="53ebd25f-c9d9-4057-98d4-2a1c502b353a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4d9f6537-9301-4777-af99-7801fc91b45c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="aa2a2de2-ddae-425a-95c9-f722387aed1f" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9959fc73-e1cd-4119-9ec0-2da42dc63939" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="18c7855f-a965-4aa7-8d88-457bb1392a08" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="35581aba-4f8c-43d5-9616-92f6e071bf84" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="1c11c290-bc4f-43cb-b852-4f63175b6467" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="93927dce-04f1-4c94-aba2-5f5513abc7c0" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ab937f33-da1e-4c44-825b-8b8c7ac5be40" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="8ffe9c39-6e62-406d-9e9b-ca506670c36e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="59c67e9a-6056-4782-a30f-5698897980ea" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="d178a506-c9b2-4841-89fb-654561fc08c4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a513b5d1-7525-4d57-8edb-2c33fd9d48d1" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="aad4b3d7-3e97-4b87-aa87-4d15b1076e43" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="189524cf-5167-4fd1-a5b6-c301380d8e45" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="08341078-8334-4efa-aa22-48a633f7ab21" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="59eb516c-86a9-4eb1-9b8f-95383c8cce8a" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6b70c14c-8394-46a8-b959-ee379dcb7c0e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="ec2ae43c-6996-477d-af68-cb83dc68d42c" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="b8f5401f-72b7-4a7f-90c9-36e197a66467" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="0e71feea-e0f2-4fa5-b7fe-c6dcb4e09661" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="7f882faa-bfb6-4753-b614-eb1e86aa4d6f" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Omnicorp.Layout.SplashText" dataScopeIdentifier="administrated">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="dd3adc62-14d0-417a-aaa6-8708dfe7690e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="df1498f3-ed27-474d-b1d1-290ad6d444a4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c921db9a-d67a-4377-b7c3-d9e68725bbcc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4035467d-0b2a-45a3-afc5-d7083d4f92d5" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Omnicorp.Layout.SplashText" dataScopeIdentifier="public">
+          <Datas locale="vi-VN">
+            <Keys>
+              <Key name="Id" value="dd3adc62-14d0-417a-aaa6-8708dfe7690e" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="df1498f3-ed27-474d-b1d1-290ad6d444a4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="c921db9a-d67a-4377-b7c3-d9e68725bbcc" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="4035467d-0b2a-45a3-afc5-d7083d4f92d5" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Data.Types.IDataItemTreeAttachmentPoint,Composite" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="ce403942-e4be-4bb0-ada7-5e42814cd017" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Community.Blog.Tags" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="6c2d5cce-6e28-4071-badf-1b80182dfbd1" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="110853f2-4881-48e2-b22b-82772e5466cb" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6e1ecf6f-03da-4027-9b37-0c6633bc77b7" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a4fcc0ad-292f-40f8-bf3c-34cd7872ce73" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="e37e077b-a02c-4eec-8f5f-3a48d16e1d1d" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="22d6aa8b-d9d1-45d6-a98a-d10c978f6e07" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="10a05f01-6d0c-4844-9a0f-a1427117a0d6" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="34ed1ac9-f1ae-4d61-8ee2-6187d065c788" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Community.Blog.Entries" dataScopeIdentifier="administrated">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="f1ac9537-c6fb-4157-92cc-0b6045b7adf4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a788afea-46e0-4c8a-894c-62ac8a4a8571" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="6e575912-bb05-4ffa-97bc-1e05f8a19be7" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="2d4a37f6-19b4-4439-946c-6681d367ccaa" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="9916ea5b-eaad-446f-a25d-1abae8cf9225" />
+            </Keys>
+          </Datas>
+        </Type>
+        <Type type="Composite.Community.Blog.Entries" dataScopeIdentifier="public">
+          <Datas>
+            <Keys>
+              <Key name="Id" value="9916ea5b-eaad-446f-a25d-1abae8cf9225" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="f1ac9537-c6fb-4157-92cc-0b6045b7adf4" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="2d4a37f6-19b4-4439-946c-6681d367ccaa" />
+            </Keys>
+            <Keys>
+              <Key name="Id" value="a788afea-46e0-4c8a-894c-62ac8a4a8571" />
+            </Keys>
+          </Datas>
+        </Type>
+      </Types>
+    </Add>
+    <Add uninstallerType="PackageFragmentInstallers.FixUserSettingsPackageFragmentUninstaller,FixUserSettingsPackageFragmentInstaller">
+      <FixUserSettings xmlns="">developeradvuserenduser</FixUserSettings>
+    </Add>
+  </PackageFragmentUninstallers>
+</PackageInstaller>

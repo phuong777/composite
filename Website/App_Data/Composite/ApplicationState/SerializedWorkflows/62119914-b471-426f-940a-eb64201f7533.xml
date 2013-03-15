@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FormData>
+  <ContainerLabel value="xxx" />
+  <FormDefinition value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&#xD;&#xA;&lt;cms:formdefinition xmlns=&quot;http://www.composite.net/ns/management/bindingforms/std.ui.controls.lib/1.0&quot; xmlns:internal=&quot;http://www.composite.net/ns/management/bindingforms/internal.ui.controls.lib/1.0&quot; xmlns:f=&quot;http://www.composite.net/ns/management/bindingforms/std.function.lib/1.0&quot; xmlns:cms=&quot;http://www.composite.net/ns/management/bindingforms/1.0&quot;&gt;&#xD;&#xA;&#x9;&lt;cms:bindings&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;SelectedPage&quot; type=&quot;Composite.Data.Types.IPage&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;SelectablePageTypeIds&quot; type=&quot;System.Collections.IEnumerable&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;SelectableTemplateIds&quot; type=&quot;System.Collections.IEnumerable&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;PublishDate&quot; type=&quot;System.Object&quot; optional=&quot;true&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;UnpublishDate&quot; type=&quot;System.Object&quot; optional=&quot;true&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;StateOptions&quot; type=&quot;System.Object&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;NamedXhtmlFragments&quot; type=&quot;System.Object&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;PreviewEventHandler&quot; type=&quot;System.EventHandler&quot; optional=&quot;true&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;CustomEvent01Handler&quot; type=&quot;System.EventHandler&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&lt;cms:binding name=&quot;UrlTitleIsRequired&quot; type=&quot;System.Boolean&quot; /&gt;&#xD;&#xA;&#x9;&lt;cms:binding name=&quot;Page spots:Omnicorp_Content_PageSpotsSpots&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Page spots:Omnicorp_Content_PageSpotsPublicationStatus&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Page spots:Omnicorp_Content_PageSpotsCultureName&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Page spots:Omnicorp_Content_PageSpotsSourceCultureName&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Page spots:Omnicorp_Content_PageSpotsId&quot; type=&quot;System.Guid&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Page spots:Omnicorp_Content_PageSpotsPageId&quot; type=&quot;System.Guid&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Page spots:Omnicorp_Content_PageSpotsFieldName&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Splash Image:Omnicorp_Layout_SplashImageImage&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Splash Image:Omnicorp_Layout_SplashImagePublicationStatus&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Splash Image:Omnicorp_Layout_SplashImageCultureName&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Splash Image:Omnicorp_Layout_SplashImageSourceCultureName&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Splash Image:Omnicorp_Layout_SplashImageId&quot; type=&quot;System.Guid&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Splash Image:Omnicorp_Layout_SplashImagePageId&quot; type=&quot;System.Guid&quot; optional=&quot;true&quot; /&gt;&lt;cms:binding name=&quot;Splash Image:Omnicorp_Layout_SplashImageFieldName&quot; type=&quot;System.String&quot; optional=&quot;true&quot; /&gt;&lt;/cms:bindings&gt;&#xD;&#xA;&#x9;&lt;cms:layout iconhandle=&quot;page-edit-page&quot;&gt;&#xD;&#xA;&#x9;&#x9;&lt;TabPanels PreSelectedIndex=&quot;1&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;TabPanels.Label&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;cms:read source=&quot;SelectedPage.Title&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;/TabPanels.Label&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;PlaceHolder Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelPaneSettings}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;FieldGroup Label=&quot;${Composite.Plugins.PageElementProvider, GeneralSettings.FieldGroupLabel}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextBox Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelPageTitle}&quot; Help=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelPageTitleHelp}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextBox.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:bind source=&quot;SelectedPage.Title&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextBox.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextBox&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextArea Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelAbstract}&quot; Help=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelAbstractHelp}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextArea.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:bind source=&quot;SelectedPage.Description&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextArea.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextArea&gt;&#xD;&#xA;&#xD;&#xA;          &lt;KeySelector OptionsKeyField=&quot;Key&quot; OptionsLabelField=&quot;Value&quot; Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.PageTypeSelectorLabel}&quot; Help=&quot;${Composite.Plugins.PageElementProvider, EditPage.PageTypeSelectorLabel}&quot;&gt;&#xD;&#xA;            &lt;KeySelector.SelectedIndexChangedEventHandler&gt;&#xD;&#xA;              &lt;cms:read source=&quot;CustomEvent01Handler&quot; /&gt;&#xD;&#xA;            &lt;/KeySelector.SelectedIndexChangedEventHandler&gt;&#xD;&#xA;            &lt;KeySelector.Options&gt;&#xD;&#xA;              &lt;cms:read source=&quot;SelectablePageTypeIds&quot; /&gt;&#xD;&#xA;            &lt;/KeySelector.Options&gt;&#xD;&#xA;            &lt;KeySelector.Selected&gt;&#xD;&#xA;              &lt;cms:bind source=&quot;SelectedPage.PageTypeId&quot; /&gt;&#xD;&#xA;            &lt;/KeySelector.Selected&gt;&#xD;&#xA;          &lt;/KeySelector&gt;&#xD;&#xA;          &#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/FieldGroup&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;FieldGroup Label=&quot;${Composite.Plugins.PageElementProvider, PublicationSettings.FieldGroupLabel}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;KeySelector OptionsKeyField=&quot;Key&quot; OptionsLabelField=&quot;Value&quot; Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelPublicationState}&quot; Help=&quot;${Composite.Plugins.PageElementProvider, EditPage.HelpPublicationState}&quot; Required=&quot;true&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;KeySelector.Selected&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:bind source=&quot;SelectedPage.PublicationStatus&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/KeySelector.Selected&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;KeySelector.Options&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:read source=&quot;StateOptions&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/KeySelector.Options&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/KeySelector&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;DateTimeSelector Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelPublishDate}&quot; Help=&quot;${Composite.Plugins.PageElementProvider, EditPage.HelpPublishDate}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:bind source=&quot;PublishDate&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/DateTimeSelector&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;DateTimeSelector Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelUnpublishDate}&quot; Help=&quot;${Composite.Plugins.PageElementProvider, EditPage.HelpUnpublishDate}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:bind source=&quot;UnpublishDate&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/DateTimeSelector&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/FieldGroup&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;FieldGroup Label=&quot;${Composite.Plugins.PageElementProvider, AdvancedSettings.FieldGroupLabel}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextBox Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelMenuTitle}&quot; Help=&quot;${Composite.Plugins.PageElementProvider, EditPage.HelpMenuTitle}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextBox.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:bind source=&quot;SelectedPage.MenuTitle&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextBox.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextBox&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextBox Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelUrlTitle}&quot; Help=&quot;${Composite.Plugins.PageElementProvider, EditPage.HelpUrlTitle}&quot; SpellCheck=&quot;false&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextBox.Required&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:read source=&quot;UrlTitleIsRequired&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextBox.Required&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextBox.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:bind source=&quot;SelectedPage.UrlTitle&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextBox.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextBox&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextBox Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelFriendlyUrl}&quot; Help=&quot;${Composite.Plugins.PageElementProvider, EditPage.HelpFriendlyUrl}&quot; SpellCheck=&quot;false&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;TextBox.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:bind source=&quot;SelectedPage.FriendlyUrl&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextBox.Text&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/TextBox&gt;&#x9;&#x9;&#x9;&#x9;&#x9;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/FieldGroup&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;/PlaceHolder&gt;&#xD;&#xA;      &#xD;&#xA;&#x9;&#x9;&#x9;&lt;internal:PageContentEditor Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelContent}&quot;&gt;&#xD;&#xA;        &lt;internal:PageContentEditor.TemplateId&gt;&#xD;&#xA;          &lt;cms:bind source=&quot;SelectedPage.TemplateId&quot; /&gt;&#xD;&#xA;        &lt;/internal:PageContentEditor.TemplateId&gt;&#xD;&#xA;        &lt;internal:PageContentEditor.SelectableTemplateIds&gt;&#xD;&#xA;          &lt;cms:bind source=&quot;SelectableTemplateIds&quot; /&gt;&#xD;&#xA;        &lt;/internal:PageContentEditor.SelectableTemplateIds&gt;&#xD;&#xA;        &lt;internal:PageContentEditor.NamedXhtmlFragments&gt;&#xD;&#xA;          &lt;cms:bind source=&quot;NamedXhtmlFragments&quot; /&gt;&#xD;&#xA;        &lt;/internal:PageContentEditor.NamedXhtmlFragments&gt;&#xD;&#xA;      &lt;/internal:PageContentEditor&gt;&#xD;&#xA;      &#xD;&#xA;&#x9;&#x9;&#x9;&lt;PlaceHolder Label=&quot;Metadata&quot;&gt;&lt;FieldGroup Label=&quot;Page spots&quot;&gt;&lt;MultiKeySelector Label=&quot;Spots shown on page&quot; Help=&quot;Spots on this page are automatically inherited to subpages, unless modified on the subpage. Leave this field blank to inherit spots from an ancestor page.&quot; OptionsKeyField=&quot;Key&quot; OptionsLabelField=&quot;Label&quot; Required=&quot;false&quot; CompactMode=&quot;true&quot;&gt;&lt;MultiKeySelector.SelectedAsString&gt;&lt;cms:bind source=&quot;Page spots:Omnicorp_Content_PageSpotsSpots&quot; /&gt;&lt;/MultiKeySelector.SelectedAsString&gt;&lt;MultiKeySelector.Options&gt;&lt;f:StaticMethodCall Type=&quot;Composite.Plugins.Functions.WidgetFunctionProviders.StandardWidgetFunctionProvider.String.DataIdMultiSelectorWidgetFunction,Composite&quot; Method=&quot;GetOptions&quot; Parameters=&quot;Omnicorp.Content.AllSpots&quot; /&gt;&lt;/MultiKeySelector.Options&gt;&lt;/MultiKeySelector&gt;&lt;/FieldGroup&gt;&lt;FieldGroup Label=&quot;Splash Image&quot;&gt;&lt;DataReferenceTreeSelector Label=&quot;Splash image&quot; Help=&quot;The splash image on this page is automatically inherited to subpages unless modified.&quot; Handle=&quot;Composite.Management.ImageSelectorDialog&quot; SearchToken=&quot;Composite.Plugins.Elements.ElementProviders.MediaFileProviderElementProvider.MediaFileSearchToken,Composite|MimeTypes=',\ \'image/gif\',\ \'image/jpeg\',\ \'image/png\',\ \'image/bmp\'', Extensions=null, Folder='/Splashes', HideSubfolders='False', Keyword=null&quot; DataType=&quot;Composite.Data.Types.IImageFile,Composite&quot; NullValueAllowed=&quot;true&quot;&gt;&lt;DataReferenceTreeSelector.Selected&gt;&lt;cms:bind source=&quot;Splash Image:Omnicorp_Layout_SplashImageImage&quot; /&gt;&lt;/DataReferenceTreeSelector.Selected&gt;&lt;/DataReferenceTreeSelector&gt;&lt;/FieldGroup&gt;&lt;/PlaceHolder&gt;&lt;f:NullCheck&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;f:NullCheck.CheckValue&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:read source=&quot;PreviewEventHandler&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/f:NullCheck.CheckValue&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;f:NullCheck.WhenNotNull&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;internal:PreviewPanel Label=&quot;${Composite.Plugins.PageElementProvider, EditPage.LabelPreview}&quot;&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;internal:PreviewPanel.ClickEventHandler&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;cms:read source=&quot;PreviewEventHandler&quot; /&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/internal:PreviewPanel.ClickEventHandler&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;/internal:PreviewPanel&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&#x9;&lt;/f:NullCheck.WhenNotNull&gt;&#xD;&#xA;&#x9;&#x9;&#x9;&lt;/f:NullCheck&gt;&#xD;&#xA;&#x9;&#x9;&lt;/TabPanels&gt;&#xD;&#xA;&#x9;&lt;/cms:layout&gt;&#xD;&#xA;&lt;/cms:formdefinition&gt;" />
+  <CustomToolbarDefinition />
+  <ContainerType>
+    <SerializerHandler value="SerializerHandlerType='Composite\.C1Console\.Actions\.StandardUiContainerTypesSerializerHandler,Composite'SerializedObject='Document'" />
+  </ContainerType>
+  <Bindings>
+    <Dictionary type="&lt;t n=&quot;System.Collections.Generic.Dictionary`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="SelectedPage" />
+        </Key>
+        <Value>
+          <SerializerHandler value="SerializerHandlerType='Composite\.Data\.DataSerializerHandler,Composite'SerializedObject='_IsNew_=\'False\'_DataSourceId_=\'_dataId_=\\\'Id=\\\\\\\'268c91da-7ad8-4003-b8c4-1df862ae5097\\\\\\\'\\\'_dataIdType_=\\\'CompositeGenerated\\\\\\\.DynamicXmlDataProvider\\\\\\\.Composite_Data_Types_IPageDataId\\\'_interfaceType_=\\\'Composite\\\\\\\.Data\\\\\\\.Types\\\\\\\.IPage,Composite\\\'_dataScope_=\\\'administrated\\\'_localeScope_=\\\'vi-VN\\\'\'Id=\'268c91da-7ad8-4003-b8c4-1df862ae5097\'TemplateId=\'78b4bacb-1bb6-4b28-9b39-2148e0223f90\'PageTypeId=\'bea4f923-4b10-44e7-b290-c2c0ca671ea7\'Title=\'xxx\'MenuTitle=\'xxx\'UrlTitle=\'xxx\'FriendlyUrl=\'\'Description=\'\'Composite-Data-IChangeHistory\.ChangeDate=\'03/15/2013\\\ 16:13:41\'Composite-Data-IChangeHistory\.ChangedBy=\'admin\'Composite-Data-ProcessControlled-IPublishControlled\.PublicationStatus=\'draft\'Composite-Data-ProcessControlled-ILocalizedControlled\.CultureName=\'vi-VN\'Composite-Data-ProcessControlled-ILocalizedControlled\.SourceCultureName=\'vi-VN\''" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="UrlTitleIsRequired" />
+        </Key>
+        <Value>
+          <Value type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="true" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsSpots" />
+        </Key>
+        <Value>
+          <Null />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsPublicationStatus" />
+        </Key>
+        <Value>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="published" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsCultureName" />
+        </Key>
+        <Value>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="vi-VN" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsSourceCultureName" />
+        </Key>
+        <Value>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="vi-VN" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsId" />
+        </Key>
+        <Value>
+          <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="072ab740-1d89-4fd3-bf5e-4849da184083" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsPageId" />
+        </Key>
+        <Value>
+          <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="268c91da-7ad8-4003-b8c4-1df862ae5097" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsFieldName" />
+        </Key>
+        <Value>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageImage" />
+        </Key>
+        <Value>
+          <Null />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImagePublicationStatus" />
+        </Key>
+        <Value>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="published" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageCultureName" />
+        </Key>
+        <Value>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="vi-VN" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageSourceCultureName" />
+        </Key>
+        <Value>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="vi-VN" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageId" />
+        </Key>
+        <Value>
+          <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="364d6410-a079-4f52-9156-a42d5f247183" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImagePageId" />
+        </Key>
+        <Value>
+          <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="268c91da-7ad8-4003-b8c4-1df862ae5097" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageFieldName" />
+        </Key>
+        <Value>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="SelectablePageTypeIds" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.Collections.Generic.KeyValuePair`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;    &lt;t n=&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;    &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;/t&gt;&#xD;&#xA;&lt;/t&gt;">
+            <KeyValuePair type="&lt;t n=&quot;System.Collections.Generic.KeyValuePair`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+              <Key>
+                <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="bea4f923-4b10-44e7-b290-c2c0ca671ea7" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Blog" />
+              </Value>
+            </KeyValuePair>
+            <KeyValuePair type="&lt;t n=&quot;System.Collections.Generic.KeyValuePair`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+              <Key>
+                <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="162ceadc-deba-4eed-8c19-fa26fd4047c3" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Content page" />
+              </Value>
+            </KeyValuePair>
+          </List>
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="SelectableTemplateIds" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.Collections.Generic.KeyValuePair`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;    &lt;t n=&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;    &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;/t&gt;&#xD;&#xA;&lt;/t&gt;">
+            <KeyValuePair type="&lt;t n=&quot;System.Collections.Generic.KeyValuePair`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+              <Key>
+                <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="a0a572ad-6b3c-471d-a771-389d4e3a0454" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="DefaultPage" />
+              </Value>
+            </KeyValuePair>
+            <KeyValuePair type="&lt;t n=&quot;System.Collections.Generic.KeyValuePair`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+              <Key>
+                <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="78b4bacb-1bb6-4b28-9b39-2148e0223f90" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="FrontPage" />
+              </Value>
+            </KeyValuePair>
+            <KeyValuePair type="&lt;t n=&quot;System.Collections.Generic.KeyValuePair`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+              <Key>
+                <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="01364759-0c32-45ba-a1c2-321fcf375e60" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="UltraWidePage" />
+              </Value>
+            </KeyValuePair>
+            <KeyValuePair type="&lt;t n=&quot;System.Collections.Generic.KeyValuePair`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+              <Key>
+                <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="38997991-c5b0-4aae-884d-3237987c0d7b" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="WidePage (no menu)" />
+              </Value>
+            </KeyValuePair>
+            <KeyValuePair type="&lt;t n=&quot;System.Collections.Generic.KeyValuePair`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+              <Key>
+                <Value type="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="c33157d6-6bd6-45e6-869b-d1aceba7bb63" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="WidePage (no spots)" />
+              </Value>
+            </KeyValuePair>
+          </List>
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="NamedXhtmlFragments" />
+        </Key>
+        <Value>
+          <Dictionary type="&lt;t n=&quot;System.Collections.Generic.Dictionary`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+            <KeyPair>
+              <Key>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="content" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&#xA;&#x9;&lt;head&gt;&lt;/head&gt;&#xA;&#x9;&lt;body&gt;&#xA;&#xA;&lt;f:function name=&quot;Composite.Community.Blog.BlogRenderer&quot; xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot;&gt;&lt;f:param name=&quot;BlogEntriesCount&quot; value=&quot;5&quot; xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; /&gt;&lt;/f:function&gt;&#xA;&#xA;&lt;p&gt;Nguyen thanh phuong&lt;/p&gt;&#xA;&#xA;&#x9;&lt;/body&gt;&#xA;&lt;/html&gt;" />
+              </Value>
+            </KeyPair>
+          </Dictionary>
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="StateOptions" />
+        </Key>
+        <Value>
+          <Dictionary type="&lt;t n=&quot;System.Collections.Generic.Dictionary`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+            <KeyPair>
+              <Key>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="draft" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Draft" />
+              </Value>
+            </KeyPair>
+            <KeyPair>
+              <Key>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="awaitingApproval" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Awaiting Approval" />
+              </Value>
+            </KeyPair>
+            <KeyPair>
+              <Key>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="awaitingPublication" />
+              </Key>
+              <Value>
+                <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Awaiting Publication" />
+              </Value>
+            </KeyPair>
+          </Dictionary>
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="PublishDate" />
+        </Key>
+        <Value>
+          <Null />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="UnpublishDate" />
+        </Key>
+        <Value>
+          <Null />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="OldPublicationStatus" />
+        </Key>
+        <Value>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="draft" />
+        </Value>
+      </KeyPair>
+    </Dictionary>
+  </Bindings>
+  <BindingsValidationRules>
+    <Dictionary type="&lt;t n=&quot;System.Collections.Generic.Dictionary`2, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;  &lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;    &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;  &lt;/t&gt;&#xD;&#xA;&lt;/t&gt;">
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsSpots" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsPublicationStatus" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsCultureName" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+            <SerializerHandler value="SerializerHandlerType='Composite\.Data\.Validation\.ClientValidationRuleSerializerHandler,Composite'SerializedObject='AAEAAAD/////AQAAAAAAAAAMAgAAAEdDb21wb3NpdGUsIFZlcnNpb249My4yLjQ4MTMuMTY4MjEsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAS0NvbXBvc2l0ZS5EYXRhLlZhbGlkYXRpb24uQ2xpZW50VmFsaWRhdGlvblJ1bGVzLk5vdE51bGxDbGllbnRWYWxpZGF0aW9uUnVsZQAAAAACAAAACw=='" />
+          </List>
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsSourceCultureName" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+            <SerializerHandler value="SerializerHandlerType='Composite\.Data\.Validation\.ClientValidationRuleSerializerHandler,Composite'SerializedObject='AAEAAAD/////AQAAAAAAAAAMAgAAAEdDb21wb3NpdGUsIFZlcnNpb249My4yLjQ4MTMuMTY4MjEsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAS0NvbXBvc2l0ZS5EYXRhLlZhbGlkYXRpb24uQ2xpZW50VmFsaWRhdGlvblJ1bGVzLk5vdE51bGxDbGllbnRWYWxpZGF0aW9uUnVsZQAAAAACAAAACw=='" />
+          </List>
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsId" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsPageId" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Page spots:Omnicorp_Content_PageSpotsFieldName" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageImage" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImagePublicationStatus" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageCultureName" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+            <SerializerHandler value="SerializerHandlerType='Composite\.Data\.Validation\.ClientValidationRuleSerializerHandler,Composite'SerializedObject='AAEAAAD/////AQAAAAAAAAAMAgAAAEdDb21wb3NpdGUsIFZlcnNpb249My4yLjQ4MTMuMTY4MjEsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAS0NvbXBvc2l0ZS5EYXRhLlZhbGlkYXRpb24uQ2xpZW50VmFsaWRhdGlvblJ1bGVzLk5vdE51bGxDbGllbnRWYWxpZGF0aW9uUnVsZQAAAAACAAAACw=='" />
+          </List>
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageSourceCultureName" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;">
+            <SerializerHandler value="SerializerHandlerType='Composite\.Data\.Validation\.ClientValidationRuleSerializerHandler,Composite'SerializedObject='AAEAAAD/////AQAAAAAAAAAMAgAAAEdDb21wb3NpdGUsIFZlcnNpb249My4yLjQ4MTMuMTY4MjEsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49bnVsbAUBAAAAS0NvbXBvc2l0ZS5EYXRhLlZhbGlkYXRpb24uQ2xpZW50VmFsaWRhdGlvblJ1bGVzLk5vdE51bGxDbGllbnRWYWxpZGF0aW9uUnVsZQAAAAACAAAACw=='" />
+          </List>
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageId" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImagePageId" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+      <KeyPair>
+        <Key>
+          <Value type="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" value="Splash Image:Omnicorp_Layout_SplashImageFieldName" />
+        </Key>
+        <Value>
+          <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;Composite.Data.Validation.ClientValidationRules.ClientValidationRule,Composite&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+        </Value>
+      </KeyPair>
+    </Dictionary>
+  </BindingsValidationRules>
+  <ExcludedEvents>
+    <List type="&lt;t n=&quot;System.Collections.Generic.List`1, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;&gt;&#xD;&#xA;  &lt;t n=&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot; /&gt;&#xD;&#xA;&lt;/t&gt;" />
+  </ExcludedEvents>
+</FormData>

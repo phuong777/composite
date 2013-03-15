@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataTypeDescriptor dataTypeId="7714777f-de1b-4a00-85ae-7ecd771b145d" name="PageSpots" namespace="Omnicorp.Content" title="Page spots" hasCustomPhysicalSortOrder="false" isCodeGenerated="true" cachable="false" labelFieldName="Spots" typeManagerTypeName="Omnicorp.Content.PageSpots">
+  <DataAssociations />
+  <DataScopes>
+    <DataScopeIdentifier name="administrated" />
+    <DataScopeIdentifier name="public" />
+  </DataScopes>
+  <KeyPropertyNames>
+    <KeyPropertyName name="Id" />
+  </KeyPropertyNames>
+  <SuperInterfaces>
+    <SuperInterface type="Composite.Data.ProcessControlled.IPublishControlled,Composite" />
+    <SuperInterface type="Composite.Data.ProcessControlled.IProcessControlled,Composite" />
+    <SuperInterface type="Composite.Data.ProcessControlled.ILocalizedControlled,Composite" />
+    <SuperInterface type="Composite.Data.IPageData,Composite" />
+    <SuperInterface type="Composite.Data.IPageMetaData,Composite" />
+  </SuperInterfaces>
+  <Fields>
+    <DataFieldDescriptor id="ae574346-eda7-4846-b8c2-36b7520ea27f" name="Spots" isNullable="true" position="0" groupByPriority="0" inherited="false" instanceType="System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" storeType="PhysicalStoreType='LargeString'" isReadOnly="false" defaultValue="ValueType='String'Value=''">
+      <FormRenderingProfile label="Spots shown on page" helpText="Spots on this page are automatically inherited to subpages, unless modified on the subpage. Leave this field blank to inherit spots from an ancestor page." widgetFunctionMarkup="&lt;f:widgetfunction xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; name=&quot;Composite.Widgets.String.DataIdMultiSelector&quot; label=&quot;&quot; bindingsourcename=&quot;&quot;&gt;&lt;f:helpdefinition xmlns:f=&quot;http://www.composite.net/ns/function/1.0&quot; helptext=&quot;&quot; /&gt;&lt;f:param name=&quot;OptionsType&quot; value=&quot;DynamicType:Omnicorp.Content.AllSpots&quot; /&gt;&lt;f:param name=&quot;CompactMode&quot; value=&quot;True&quot; /&gt;&lt;/f:widgetfunction&gt;" />
+      <ValidationFunctionMarkups />
+    </DataFieldDescriptor>
+  </Fields>
+</DataTypeDescriptor>
