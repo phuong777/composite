@@ -5,6 +5,7 @@
   <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="d8f61a4a-c0d0-4ac1-b969-83c2eee53227" PageId="850c1c4b-71c6-408d-aa8b-409fdca3a676" FieldName="Page spots" />
   <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="88aca8aa-c6e7-41e9-95fb-572cd68464d3" PageId="7ead8cee-af5c-4a18-9f14-3fcf282358fc" FieldName="Page spots" />
   <PageSpots Spots="" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="f6725d3a-1eb9-4c06-b99f-fbcff1e48f82" PageId="6827f674-8948-4f15-94dc-8069bda47822" FieldName="Page spots" />
+  <PageSpots Spots="ea280f63-4e7b-47ba-acd5-8a6d8a6ab224" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="3f2592b4-7d30-4b14-bf03-ec82e02226cf" PageId="f95261d2-dc5e-4304-9a2d-ef27a18e63b8" FieldName="Page spots" />
   <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="9c80d818-c794-4071-9bda-0327d0c410b4" PageId="9c1cf9e7-a771-4b0a-817e-2cd0b69709bc" FieldName="Page spots" />
   <PageSpots Spots="ea280f63-4e7b-47ba-acd5-8a6d8a6ab224" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="6e03ff6a-1771-4bda-9125-a680f9c3b198" PageId="398932b1-314b-4baf-b3f0-b1445f806aae" FieldName="Page spots" />
   <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="072ab740-1d89-4fd3-bf5e-4849da184083" PageId="268c91da-7ad8-4003-b8c4-1df862ae5097" FieldName="Page spots" />
@@ -21,7 +22,6 @@
   <PageSpots Spots="ea280f63-4e7b-47ba-acd5-8a6d8a6ab224" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="12a3adb2-b8f3-495a-9a4e-fcd5ba5b6d5c" PageId="ca9e99df-2aca-46f6-a577-fe85f43000bb" FieldName="Page spots" />
   <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="034b1326-2242-42dc-b117-02bde6f7cb6e" PageId="fc84df32-5144-4602-9247-8f527f4bf15c" FieldName="Page spots" />
   <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="c809b208-24e8-4cdd-82f5-e594f27bbe5c" PageId="69341281-7ca9-4922-b17d-f2d1962fadbd" FieldName="Page spots" />
-  <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="a8f7aad0-f3bf-4847-9a9f-8ace395ec316" PageId="dd7ec1e9-2498-4117-8698-320fb31ba70c" FieldName="Page spots" />
   <PageSpots Spots="" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="4f49a370-7561-476e-871f-9e503d303793" PageId="6f11338c-3f6a-4b2a-953d-f25ec8571dc3" FieldName="Page spots" />
   <PageSpots Spots="e834e574-4738-4e36-8d13-7541687b8b03" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="efcd458a-771e-419f-96ef-5011473fb9e4" PageId="69f9e0f1-e2ce-4b99-a1ba-5117964b0793" FieldName="Page spots" />
   <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="9b214465-fbfe-4995-900a-037faf8bbd9b" PageId="ce057106-d785-4a34-89b8-acc10e3adaa6" FieldName="Page spots" />
@@ -32,6 +32,6 @@
   <PageSpots Spots="b9bf840f-d053-46bd-b884-c9c5a4e7d856,06f41e1f-b7a5-4020-b008-3d58b4024785" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="5768b774-bf9e-494a-8f54-0de84846beb8" PageId="d2c05ce4-d7b2-41a9-82e9-24101887c1a8" FieldName="Page spots" />
   <PageSpots Spots="" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="56e715d1-bc26-4051-9897-d7a22e9e1f37" PageId="dcf17a8b-f9b9-4eb2-a341-475cb7f4299e" FieldName="Page spots" />
   <PageSpots Spots="" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="8daad1a7-fac3-4361-83c5-abfb333df903" PageId="3b5d59a7-cd9a-41ae-869f-2fc8e8884ef9" FieldName="Page spots" />
-  <PageSpots Spots="ea280f63-4e7b-47ba-acd5-8a6d8a6ab224" PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="3f2592b4-7d30-4b14-bf03-ec82e02226cf" PageId="f95261d2-dc5e-4304-9a2d-ef27a18e63b8" FieldName="Page spots" />
+  <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="a8f7aad0-f3bf-4847-9a9f-8ace395ec316" PageId="dd7ec1e9-2498-4117-8698-320fb31ba70c" FieldName="Page spots" />
   <PageSpots PublicationStatus="published" CultureName="vi-VN" SourceCultureName="vi-VN" Id="387487fe-7caf-4e58-a2fa-71deaba7559e" PageId="be41b811-b03f-4323-82f9-f4013fef00b2" FieldName="Page spots" />
 </PageSpotss>
